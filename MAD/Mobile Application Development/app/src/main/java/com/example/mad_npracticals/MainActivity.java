@@ -22,6 +22,8 @@ import com.example.mad_npracticals.Practical_6.parcticl_6;
 import com.example.mad_npracticals.Practical_7.practical_7;
 import com.example.mad_npracticals.Practical_8.practical_8;
 import com.example.mad_npracticals.Practical_9.Practical_9;
+import com.example.mad_npracticals.practical_10.Practical_10;
+import com.example.mad_npracticals.practical_11.Practical_11;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -120,8 +122,8 @@ public class MainActivity extends AppCompatActivity {
         prc10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-              //  startActivity(new Intent(MainActivity.this, Practical_3.class));
-                Toast.makeText(getApplicationContext(), "practical 10 Baki che aena SC and Code hu direct mokalish ", Toast.LENGTH_LONG).show();
+              startActivity(new Intent(MainActivity.this, Practical_10.class));
+               // Toast.makeText(getApplicationContext(), "practical 10 Baki che aena SC and Code hu direct mokalish ", Toast.LENGTH_LONG).show();
             }
         });
         prc12.setOnClickListener(new View.OnClickListener() {
@@ -133,8 +135,8 @@ public class MainActivity extends AppCompatActivity {
         prc11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-             //   startActivity(new Intent(MainActivity.this, Practical_3.class));
-                Toast.makeText(getApplicationContext(), "practical 11 Baki che aena SC and Code hu direct mokalish ", Toast.LENGTH_LONG).show();
+               startActivity(new Intent(MainActivity.this, Practical_11.class));
+               //Toast.makeText(getApplicationContext(), "practical 11 Baki che aena SC and Code hu direct mokalish ", Toast.LENGTH_LONG).show();
             }
         });
         prc13.setOnClickListener(new View.OnClickListener() {

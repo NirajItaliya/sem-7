@@ -23,10 +23,10 @@ public class practical_17 extends AppCompatActivity {
         imageView = findViewById(R.id.imageview);
         blinkBTN = findViewById(R.id.BTNblink);
         rotateBTN = findViewById(R.id.BTNrotate);
-        fadeBTN = findViewById(R.id.BTNfade);
+    //    fadeBTN = findViewById(R.id.BTNfade);
         moveBTN = findViewById(R.id.BTNmove);
         slideBTN = findViewById(R.id.BTNslide);
-        zoomBTN = findViewById(R.id.BTNzoom);
+      //  zoomBTN = findViewById(R.id.BTNzoom);
         stopBTN = findViewById(R.id.BTNstop);
 
         blinkBTN.setOnClickListener(new View.OnClickListener() {
@@ -46,14 +46,14 @@ public class practical_17 extends AppCompatActivity {
                 imageView.startAnimation(animation);
             }
         });
-        fadeBTN.setOnClickListener(new View.OnClickListener() {
+      /*  fadeBTN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // To add fade animation
                 Animation animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fade_animation);
                 imageView.startAnimation(animation);
             }
-        });
+        });*/
         moveBTN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -70,14 +70,14 @@ public class practical_17 extends AppCompatActivity {
                 imageView.startAnimation(animation);
             }
         });
-        zoomBTN.setOnClickListener(new View.OnClickListener() {
+      /*  zoomBTN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // To add zoom animation
                 Animation animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.zoom_animation);
                 imageView.startAnimation(animation);
             }
-        });
+        });*/
         stopBTN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

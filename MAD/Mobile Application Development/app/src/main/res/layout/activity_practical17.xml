@@ -49,28 +49,28 @@
             android:textColor="@color/white" />
 
         <!--To start the fading animation of the image-->
-        <Button
-            android:id="@+id/BTNfade"
-            style="@style/TextAppearance.AppCompat.Widget.Button"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:layout_weight="1"
-            android:padding="3dp"
-            android:text="fade"
-            android:textColor="@color/white" />
+        <!--  <Button
+             android:id="@+id/BTNfade"
+             style="@style/TextAppearance.AppCompat.Widget.Button"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_margin="10dp"
+             android:layout_weight="1"
+             android:padding="3dp"
+             android:text="fade"
+             android:textColor="@color/white" /> -->
 
-    </LinearLayout>
-    <LinearLayout
-        android:id="@+id/linear2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/linear1"
-        android:layout_marginTop="30dp"
-        android:orientation="horizontal"
-        android:weightSum="3">
+     </LinearLayout>
+     <LinearLayout
+         android:id="@+id/linear2"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/linear1"
+         android:layout_marginTop="30dp"
+         android:orientation="horizontal"
+         android:weightSum="3">
 
-        <!--To start the move animation of the image-->
+         <!--To start the move animation of the image-->
         <Button
             android:id="@+id/BTNmove"
             style="@style/TextAppearance.AppCompat.Widget.Button"
@@ -95,20 +95,20 @@
             android:textColor="@color/white" />
 
         <!--To start the zoom animation of the image-->
-        <Button
-            android:id="@+id/BTNzoom"
-            style="@style/TextAppearance.AppCompat.Widget.Button"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:layout_weight="1"
-            android:padding="3dp"
-            android:text="zoom"
-            android:textColor="@color/white" />
+    <!--  <Button
+        android:id="@+id/BTNzoom"
+        style="@style/TextAppearance.AppCompat.Widget.Button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:padding="3dp"
+        android:text="zoom"
+        android:textColor="@color/white" />-->
 
-    </LinearLayout>
+</LinearLayout>
 
-    <!--To stop the animation of the image-->
+<!--To stop the animation of the image-->
     <Button
         android:id="@+id/BTNstop"
         android:layout_width="match_parent"

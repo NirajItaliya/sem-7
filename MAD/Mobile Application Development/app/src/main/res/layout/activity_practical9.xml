@@ -20,7 +20,7 @@ tools:context=".Practical_9.Practical_9">
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/red"
-        app:title="Practical 3"
+        app:title="Practical 9"
         app:titleTextColor="@color/white" />
 
     <TextView
